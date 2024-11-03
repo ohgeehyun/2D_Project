@@ -10,7 +10,7 @@
 # default for csharp files.
 # Note: This is only used by command line
 ###############################################################################
-#*.cs     diff=csharp
+#*.cs     diff=csharp eol=crlf
 
 ###############################################################################
 # Set the merge driver for project and solution files
@@ -22,27 +22,27 @@
 # these files as binary and thus will always conflict and require user
 # intervention with every merge. To do so, just uncomment the entries below
 ###############################################################################
-#*.sln       merge=binary
-#*.csproj    merge=binary
-#*.vbproj    merge=binary
-#*.vcxproj   merge=binary
-#*.vcproj    merge=binary
-#*.dbproj    merge=binary
-#*.fsproj    merge=binary
-#*.lsproj    merge=binary
-#*.wixproj   merge=binary
-#*.modelproj merge=binary
-#*.sqlproj   merge=binary
-#*.wwaproj   merge=binary
+#*.sln       merge=binary eol=crlf
+#*.csproj    merge=binary eol=crlf
+#*.vbproj    merge=binary eol=crlf
+#*.vcxproj   merge=binary eol=crlf
+#*.vcproj    merge=binary eol=crlf
+#*.dbproj    merge=binary eol=crlf
+#*.fsproj    merge=binary eol=crlf
+#*.lsproj    merge=binary eol=crlf
+#*.wixproj   merge=binary eol=crlf
+#*.modelproj merge=binary eol=crlf
+#*.sqlproj   merge=binary eol=crlf
+#*.wwaproj   merge=binary eol=crlf
 
 ###############################################################################
 # behavior for image files
 #
 # image files are treated as binary by default.
 ###############################################################################
-#*.jpg   binary
-#*.png   binary
-#*.gif   binary
+#*.jpg   binary eol=crlf
+#*.png   binary eol=crlf
+#*.gif   binary eol=crlf
 
 ###############################################################################
 # diff behavior for common document formats
@@ -51,13 +51,13 @@
 # is only available from the command line. Turn it on by uncommenting the 
 # entries below.
 ###############################################################################
-#*.doc   diff=astextplain
-#*.DOC   diff=astextplain
-#*.docx  diff=astextplain
-#*.DOCX  diff=astextplain
-#*.dot   diff=astextplain
-#*.DOT   diff=astextplain
-#*.pdf   diff=astextplain
-#*.PDF   diff=astextplain
-#*.rtf   diff=astextplain
-#*.RTF   diff=astextplain
+#*.doc   diff=astextplain eol=crlf
+#*.DOC   diff=astextplain eol=crlf
+#*.docx  diff=astextplain eol=crlf
+#*.DOCX  diff=astextplain eol=crlf
+#*.dot   diff=astextplain eol=crlf
+#*.DOT   diff=astextplain eol=crlf
+#*.pdf   diff=astextplain eol=crlf
+#*.PDF   diff=astextplain eol=crlf
+#*.rtf   diff=astextplain eol=crlf
+#*.RTF   diff=astextplain eol=crlf

@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# size 100mb over 
+Library/PackageCache/com.unity.burst@1.8.13/.Runtime/libburst-llvm-16.dylib
+Library/ArtifactDB
