@@ -12,7 +12,7 @@ public class GameScene : BaseScene
 
         Managers.Map.LoadMap(1);
 
-        GameObject player = Managers.Resource.Instantiate("Creature/Player");
+       /* GameObject player = Managers.Resource.Instantiate("Creature/Player");
         player.name = "Player";
         Managers.Object.Add(player);
 
@@ -32,9 +32,8 @@ public class GameScene : BaseScene
             mc.CellPos = pos;
 
             Managers.Object.Add(monster);
-        }
-      
-
+        }*/
+     
     }
 
     public override void Clear()
