@@ -39,7 +39,7 @@ public class Managers : MonoBehaviour
 
     void Update()
     {
-
+        _network.Update();
     }
 
     static void Init()
@@ -59,6 +59,7 @@ public class Managers : MonoBehaviour
             s_instance._data.Init();
             s_instance._pool.Init();
             s_instance._sound.Init();
+            s_instance._network.Init();
         }
     }
 
